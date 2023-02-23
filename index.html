@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Alessandra</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" type="text/css" href="styled.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!---hero Section start-->
+  <div class="hero">
+    <nav>
+      <h2 class="logo">Portfo<span>lio</span></h2>
+      <ul>
+        <li><a href="#content">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#service">Projetos</a></li>
+        <li><a href="#contact">Habilidades</a></li>
+        <li><a href="#social">Fale comigo</a></li>
+      </ul>
+      <a href="https://wa.me/5518997772191" target="_blank" class="btn">WhatsApp</a>
+    </nav>
+
+    
+      <div id="content" class="content">
+        <h4>Olá seja muito bem vindo! Meu nome é</h4>
+        <h1><span>Alessandra</span> Sandeski Marmiroli</h1>
+        <h3>Eu sou Web FullStack e apaixonada por Frontend!</h3>
+        <div class="newslatter">
+          <form>
+            <input type="email" name="email" id="mail" placeholder="Adicione seu e-mail" />
+            <input type="submit" name="submit" value="Enviar" />
+          </form>
+        </div>
+      </div>
+    
+
+  </div>
+
+  <!--About section start-->
+  <section id="about" class="about">
+    <div class="main">
+        <img width="25%" src="img/imgg.jpg" alt="imagem da desenvolvedora">
+      <!-- <img width="25%" src="img/imgg.jpg" /> -->
+      <div class="about-text">
+        <!-- <img src="img/FooterAle.png"> -->
+        <h2>Sobre</h2>
+        <h5>Web Full Stack</h5>
+        <p>
+          Eu sou formada em Web FullStack e graduada em Administração com experiência em
+          empreendedorismo, áreas administrativas e vendas. Atualmente estou ingressando em uma nova formação
+          <strong>"Análise e Desenvolvimento de Sistemas"</strong> pretendo adquirir o máximo de conhecimento para
+          agregar futuramente à equipe que irei partilhar e compartilhar. Nesse momento estou em transição de carreira
+          busco alcançar o meu objetivo dismistificando obstáculos e ajudando à solucionar as dificuldades em
+          desenvolvimento de sistemas contribuindo para o sucesso.
+        </p>
+        <!-- <button type="button">Fale comigo</button> -->
+      </div>
+    </div>
+  </section>
+
+  <!--service section start-->
+ 
+    <div  id="service" class="service">
+      <div class="title">
+        <h2>Meus Projetos</h2>
+      </div>
+      <div class="box">
+        <div class="card">
+          <img width="50px"
+            src="https://1.bp.blogspot.com/_KBmmkCxTLY8/TMBfCU6xtBI/AAAAAAAAAFI/Ia5W4Suucww/s1600/kawax-pokeball-3097.png"
+            alt="pokebola do desenho pokemon">
+          <!-- <i class="far fa-bars"></i> -->
+          <h5>Projeto Pokedex</h5>
+          <div class="pra">
+            <p>Este projeto foi realizado em grupo de 05 pessoas através do Botcamp da Labenu. Desenvolvido em três
+              páginas: Home - Utilizamos uma API que retornava na tela 20 pokemons; Pokedex - onde eram adicionados os
+              pokemons ou removidos da pokebola; Detalhes do Pokemom - era possível visualizar cada detalhes como força,
+              ataque e outros.</p>
+            <p>Aprendi a estruturar um projeto usando Global State, router e styled components .</p>
+            <p style="text-align: center">
+              <a class="button" href="https://github.com/AlessandraSM/ProjetosPessoais/tree/main/Projeto-Pokemon"
+                target="_blank">Estrutura do Projeto</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img width="80px"
+            src="https://www.oliberal.com/image/contentid/policy:1.530531:1653362556/Milionaria.png?f=2x1&$p$f=3fc07aa&w=1500&$w=f075b93"
+            alt="imagem da logo da loteria">
+          <!-- <i class="far fa-user"></i> -->
+          <h5>Concurso Loteria</h5>
+          <div class="pra">
+            <p>Baseado em um layout do figma, inspirado em um Concurso de Loteria. Na página inicial é possível através
+              de um seletor acessar o as informações de cada concurso. Cada concurso retorna na tela o número do
+              concurso, o nome do concurso e os números sorteados. Analisei os Endpoints: GET /loterias responsável por
+              retornar todos os nomes dos concursos da loteria, GET /loterias-concursos responsável pela relação de ID´s
+              entre loterias e concursos e GET /consursos/{id} responsável por retornar os dados do concurso pelo id. Me
+              preocupei também com responsividade utilizando @media queries para possibilibar o uso do App para desktop
+              e celulares.</p>
+            <p style="text-align: center">
+              <a class="button"
+                href="https://github.com/AlessandraSM/ProjetosPessoais/tree/main/Projeto-Concurso-Loteria"
+                target="_blank">Estrutura do Projeto</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img width="50px" src="https://i.pinimg.com/736x/03/b2/72/03b272f36c50fe04550f47977b815045.jpg"
+            alt="imagem de cinema copo com pipoca e refrigerante">
+          <!-- <i class="far fa-bell"></i> -->
+          <h5>Promobit</h5>
+          <div class="pra">
+            <p>Desenvolvido em duas Páginas. Na primeira página permite que o usuário consiga através de um filtro
+              selecionar os filmes por gênero e ao clicar em gênero o botão muda de cor permitindo um contato visual de
+              que este gênero ja esteja selecionado. Priorizei a paginação estilizada com Material UI. Na segunda página
+              o usuário consegue visualizar os detalhes de cada filme com uma variedade de informações como: imagem do
+              filme, nome do filme, data do filme, trailer do filme (cartaz), elenco e recomendações. Através da API
+              consumi diversos endpoints de GET que retornavam filmes, gêneros, detalhes, atores e recomendações.</p>
+            <p style="text-align: center">
+              <a class="button" href="https://github.com/AlessandraSM/ProjetosPessoais/tree/main/Projeto-Promobit"
+                target="_blank">Estrutura do Projeto</a>
+            </p>
+          </div>
+        </div>
+      </div>
+  
+
+  <!--Contact Me-->
+  <section id="contact">
+    <div class="contact">
+      <h2>Minhas soft skills:</h2>
+      <p>Sou uma pessoa <span><strong>Comunicativa</strong></span> tenho experiência no ramo comercial como sócio
+        proprietária, gerente e vendedora há
+        mais de 15 anos.
+        <span><strong>Empatia</strong></span> sei ouvir as dores de clientes buscando a compreensão para momentos
+        conflitantes e sei validar o que é
+        muito importante.
+        Sou <span><strong>Criativa</strong></span>, atuei no ramo de moda com criação de croquis e cortes de vestidos
+        sociais e noivas. Meu Hobby
+        atualmente é pinturas em peças de Cerâmica.
+        Sou <span><strong>Resiliente</strong></span> decidi no período da pandemia que faria uma transição de carreira
+        voltada para área de
+        Tecnologia, desde então invisto meu tempo e dedicação à carreira em busca da minha oportunidade.</p>
+      <!-- <a class="button-two" href="">Hire Me</a> -->
+    </div>
+
+    <br>
+
+    <div class="contact">
+      <h2>Minhas hard skills:</h2>
+      <p>Através de cursos da plataforma Alura adquiri conhecimento em: <span><strong>Ilustrator, Photoshop, Html e
+            fundamentos de UX</strong></span>
+        - experiência de usuário.
+        No Bootcamp Labenu curso realizado em período integral obtive conhecimento em: <span>
+          <strong>
+            HTML, CSS, JavaScript, React,
+            Styled-Components,
+            React Hooks, REST, Api Restful, HTTP, Jest, Node.JS, Knex,
+            Typescript, MySQL, AWS, SQL, Git, Github, Firebase, testes
+            unitários e UI Design
+          </strong>
+        </span>.
+        Por curiosidade aprendi a utilizar o Figma.
+        Atualmente faço aulas particulares de <span><strong>Inglês</strong></span>.</p>
+      <!-- <a class="button-two" href="">Hire Me</a> -->
+    </div>
+  </section>
+
+  <!--Footer start-->
+  <section id="social">
+    <footer>
+      <p>Alessandra Sandeski Marmiroli</p>
+      <p>
+        por favor clique nos links abaixo para acessar minhas redes:
+      </p>
+      <div class="social">
+        <a href="https://github.com/AlessandraSM" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/alessandra-sandeski-marmiroli-2976271b9/" target="_blank"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/alessandrasandeski/" target="_blank"><i
+            class="fa-brands fa-instagram"></i></a>
+
+      </div>
+      <p class="end"><strong>Copyright By Alessandra Sandeski Marmiroli</strong></p>
+      <button><a href="#content">Volte ao Início da Página</a></button>
+    </footer>
+  </section>
+</body>
+
+</html>
